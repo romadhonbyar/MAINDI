@@ -1,0 +1,153 @@
+<!DOCTYPE html>
+<html>
+<head>
+	<meta charset="utf-8">
+	<title>Integral &amp; Diferensial - Matematika Dasar 2</title>
+	<link type="text/css" rel="stylesheet" href="css/bootstrap.min.css">
+	<link type="text/css" rel="stylesheet" href="css/style.css">
+	<link type="text/css" rel="stylesheet" href="css/font-awesome.min.css">
+</head>
+	<body>
+		<br>
+		<div class="container">
+			<div class="row">
+				<div class="col-md-10 col-md-offset-1">
+					<div class="panel panel-primary">
+						<div class="panel-heading">
+							<h3 class="panel-title"><i class="fa fa-bars fa-lg"></i> 
+								<a href="index.html">Matematika Dasar 2</a>
+							</h3>
+							<span class="pull-right">
+								<ul class="nav panel-tabs">
+									<li class="active"><a href="#menus" data-toggle="tab"><i class="fa fa-list"></i> List</a></li>
+									<li><a href="#differential" data-toggle="tab"><i class="fa fa-caret-right fa-lg"></i> Differential</a></li>
+									<li><a href="#integral" data-toggle="tab"><i class="fa fa-caret-right fa-lg"></i> Integral</a></li>
+									<li><a href="#team" data-toggle="tab"><i class="fa fa-users fa-lg"></i> Team</a></li>
+									<li><a href="#help" data-toggle="tab"><i class="fa fa-life-ring fa-lg"></i> Help</a></li>
+								</ul>
+							</span>
+						</div>
+						<div class="panel-body">
+							<div class="tab-content">
+								<div class="tab-pane active" id="menus">
+									<br>
+									<div class="well">
+									<legend><i class="fa fa-list"></i> List Matdas 2</legend>
+										<ol>
+											<li><a href="index.html#differential" data-toggle="tab">Differential</a></li>
+											<li><a href="index.html#integral" data-toggle="tab">Integral</a></li>
+										</ol>
+									</div>
+								</div>
+								<div class="tab-pane" id="differential">
+									<legend><span style="font-style: italic;">f(x)</span> Differential</legend>
+									<div class="form-horizontal">
+										<div class="form-group form-group-lg">
+											<label class="col-sm-2 control-label" for="jmlRuas-differential">Jumlah Ruas:</label>
+											<div class="col-sm-2">
+												<input class="form-control" min="1" required placeholder="Ruas" maxlength="5" type="number" id="jmlRuas-differential" name="jmlRuas-differential" >
+											</div>
+											<div class="col-sm-3">
+												<button class="btn btn-primary" onclick="mulai_diff()" >Mulai</button>
+											</div>
+										</div>
+									</div>
+									<hr>
+									<div id="form-differential"></div>
+									<div id="result-differential" class="math"></div>
+								</div>
+
+								<div class="tab-pane" id="integral">
+									<legend><span style="font-style: italic;">&#x222b;</span> Integral</legend>
+									<div class="form-horizontal">
+										<div class="form-group form-group-lg">
+											<label class="col-sm-2 control-label" for="jmlRuas-integral">Jumlah Ruas:</label>
+											<div class="col-sm-2">
+												<input class="form-control" min="1" required placeholder="Ruas" maxlength="5" type="number" id="jmlRuas-integral" name="jmlRuas-integral" >
+											</div>
+											<div class="col-sm-3">
+												<button class="btn btn-primary" onclick="mulai_integral()" >Mulai</button>
+											</div>
+										</div>
+									</div>
+									<hr>
+									<div id="form-integral"></div>
+									<div id="result-integral" class="math"></div>
+								</div>
+								<div class="tab-pane" id="team"><br>
+									<div class="well">
+										<legend>Teamwork</legend>
+										<table>
+											<tr>
+												<td class="bold">Analyst</td>
+												<td>:</td> 
+												<td>Rizky Hadi, Subhan.</td>
+											</tr>
+											<tr>
+												<td class="bold">Dokumentasi</td>
+												<td>:</td> 
+												<td>Khairul Anwar, Surya Dwiguna.</td>
+											</tr>
+											<tr>
+												<td class="bold">Programmer</td>
+												<td>:</td> 
+												<td>Ahmad Romadhon, Muhammad Firman Akbar, Patriot Muslim.</td>
+											</tr>
+											<tr>
+												<td class="bold">Tester</td>
+												<td>:</td> 
+												<td>Hasna Achmad.</td>
+											</tr>
+										</table>
+									</div>
+								</div>
+								<div class="tab-pane" id="help">
+									<br>
+									<div class="well">
+										<legend>Help</legend>
+										<ol>
+											<li>Masukkan jumlah ruas yang Kamu kehendaki.
+												<ul>
+													<li>Kolom jumlah ruas hanya dapat diisi dengan angka.</li>
+												</ul>
+											</li>
+											<li>Klik mulai untuk membuat ruas.</li>
+											<li>Masukkan nilai X dan n pada kolom yang telah disediakan.
+												<ul>
+													<li>Kolom X dan n hanya dapat diisi dengan angka.</li>
+												</ul>
+											</li>
+											<li>Klik hitung untuk menghitung dan mendapatkan hasil dari perhitungan.</li>
+											<li>Selesai.</li>
+										</ol>
+									</div>
+								</div>
+							</div>
+						</div>
+					</div>
+					<div class="text-right text-muted">
+						<i class="fa fa-copyright"></i> 2015 UIN-TI Matdas. All Rights Reserved.
+					</div>
+				</div>
+			</div>
+		</div>
+		<script type="text/javascript" src="js/jquery-1.11.2.min.js"></script>
+		<script type="text/javascript" src="js/bootstrap.min.js"></script>
+		<script type="text/javascript" src="js/app.js"></script>
+		<!-- <script type="text/javascript" src="js/app.min.js"></script> -->
+
+		<script>
+			$(function(){
+			  var hash = window.location.hash;
+			  hash && $('ul.nav a[href="' + hash + '"]').tab('show');
+
+			  $('.nav-tabs a').click(function (e) {
+				$(this).tab('show');
+				var scrollmem = $('body').scrollTop();
+				window.location.hash = this.hash;
+				$('html,body').scrollTop(scrollmem);
+			  });
+			});
+		</script>
+	</body>
+</html>

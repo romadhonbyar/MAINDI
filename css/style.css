@@ -1,0 +1,131 @@
+.bold{
+	font-weight:bold;
+}
+sup > small {
+    font-size: 90%;
+}
+select {
+    -webkit-appearance: none;
+    -moz-appearance: none;
+}
+
+input {
+    line-height: 1.428571429;
+    color: #555;
+    vertical-align: middle;
+    background-color: #fff;
+    border: 1px solid #ccc;
+    border-radius: 0px;
+    -webkit-box-shadow: inset 0 1px 1px rgba(0,0,0,0.075);
+    box-shadow: inset 0 1px 1px rgba(0,0,0,0.075);
+    -webkit-transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+    transition: border-color ease-in-out .15s,box-shadow ease-in-out .15s;
+}
+
+/* input-combobox */
+.input-combobox {
+	 width: 100%;
+	 height: 34px;
+	 padding: 6px 12px;
+	 font-size: 14px;
+	 line-height: 1.428571429;
+	 color: #555555;
+	 vertical-align: middle;
+	 background-color: #ffffff;
+	 background-image: none;
+	 border: 1px solid #cccccc;
+	 border-radius: 0px;
+	 -webkit-box-shadow: inset 0 1px 1px rgba(0,  0,  0,  0.075);
+	 box-shadow: inset 0 1px 1px rgba(0,  0,  0,  0.075);
+	 -webkit-transition: border-color ease-in-out 0.15s,  box-shadow ease-in-out 0.15s;
+	 transition: border-color ease-in-out 0.15s,  box-shadow ease-in-out 0.15s;
+}
+.input-combobox :focus  {
+	 border-color: #66afe9;
+	 outline: 0;
+	 -webkit-box-shadow: inset 0 1px 1px rgba(0,  0,  0,  0.075),  0 0 8px rgba(102,  175,  233,  0.6);
+	 box-shadow: inset 0 1px 1px rgba(0,  0,  0,  0.075),  0 0 8px rgba(102,  175,  233,  0.6);
+}
+
+
+.input-konstanta,
+.input-variabel {
+    margin: 20px 5px 20px 5px;
+    height: 35px;
+    width: 50px;
+    padding: 2px 5px;
+    font-size: 13px;
+}
+.input-pangkat {
+    height: 25px;
+    width: 40px;
+    padding: 2px;
+    font-size: 12px;
+    margin-top: -60px;
+}
+div.math {
+    text-align: center;
+    width: 100%;
+    word-spacing: normal;
+}
+.hybrid .fraction {
+    display: inline-block;
+}
+div.fraction {
+    text-align: center;
+    display: inline;
+    vertical-align: middle;
+}
+.fraction .numerator {
+    top: 0;
+}
+.fraction .numerator {
+    padding-bottom: 0.1ex;
+    border-bottom: thin black solid;
+}
+.fraction span.denominator {
+    left: 0;
+    bottom: -1.2em;
+    line-height: 25px;
+}
+.panel-tabs
+{
+    position: relative;
+    bottom: 30px;
+    clear:both;
+    border-bottom: 1px solid transparent;
+}
+
+.panel-tabs > li
+{
+    float: left;
+    margin-bottom: -1px;
+}
+
+.panel-tabs > li > a {
+    margin-right: 2px;
+    margin-top: 4px;
+    line-height: .85;
+    border: 1px solid transparent;
+    border-radius: 4px 4px 0 0;
+    color: #ffffff;
+}
+
+.panel-tabs > li > a:hover {
+    border-color: transparent;
+    color: #ffffff;
+    background-color: transparent;
+}
+
+.panel-tabs > li.active > a,
+.panel-tabs > li.active > a:hover,
+.panel-tabs > li.active > a:focus
+{
+    color: #fff;
+    cursor: default;
+    -webkit-border-radius: 2px;
+    -moz-border-radius: 2px;
+    border-radius: 2px;
+    background-color: rgba(255,255,255, .23);
+    border-bottom-color: transparent;
+}
