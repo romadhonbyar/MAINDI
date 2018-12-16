@@ -10,12 +10,12 @@ Aplikasi sederhana matematika diskrit atau diskret dalam pengoperasian intergral
 ### Tampilan Aplikasi
 ![alt Tampilan awal](https://raw.githubusercontent.com/romadhonbyar/MAINDI/master/image/tampilan-awal.PNG)
 
-##### Tampilan Differential
+#### Tampilan Differential
 ![alt Tampilan tab differential pada aplikasi MAINDI](https://raw.githubusercontent.com/romadhonbyar/MAINDI/master/image/tampilan-differential.PNG)
 ![alt Tampilan tab differential input pada aplikasi MAINDI](https://raw.githubusercontent.com/romadhonbyar/MAINDI/master/image/tampilan-differential-input.PNG)
 ![alt Tampilan tab differential output pada aplikasi MAINDI](https://raw.githubusercontent.com/romadhonbyar/MAINDI/master/image/tampilan-differential-output.PNG)
 
-##### Tampilan Integral
+#### Tampilan Integral
 ![alt Tampilan tab integral pada aplikasi MAINDI](https://raw.githubusercontent.com/romadhonbyar/MAINDI/master/image/tampilan-integral.PNG)
 ![alt Tampilan tab integral input pada aplikasi MAINDI](https://raw.githubusercontent.com/romadhonbyar/MAINDI/master/image/tampilan-integral-input.PNG)
 ![alt Tampilan tab integral output pada aplikasi MAINDI](https://raw.githubusercontent.com/romadhonbyar/MAINDI/master/image/tampilan-integral-output.PNG)
