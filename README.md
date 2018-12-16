@@ -19,16 +19,16 @@ Aplikasi sederhana matematika diskrit atau diskret dalam pengoperasian intergral
 
 # Tampilan
 <p>Tampilan awal</p>
-<image title="Tampilan awal aplikasi MAINDI" width="40%" src="http://i1382.photobucket.com/albums/ah258/romadhonbyar/Github/MAINDI/Tampilan%20Awal%20Aplikasi%20MAINDI_zpsfiukzaxk.png" >
+<image title="Tampilan awal aplikasi MAINDI" width="40%" src="https://raw.githubusercontent.com/romadhonbyar/MAINDI/master/image/tampilan-awal.PNG" >
 <br>
 <p>Tampilan tab differensial</p>
-<image title="Tampilan tab differensial pada aplikasi MAINDI" width="40%" src="http://i1382.photobucket.com/albums/ah258/romadhonbyar/Github/MAINDI/Tampilan%20Tab%20Differensial%20Aplikasi%20MAINDI_zpso6u9d1nd.png" >
+<image title="Tampilan tab differential pada aplikasi MAINDI" width="40%" src="https://raw.githubusercontent.com/romadhonbyar/MAINDI/master/image/tampilan-differential.PNG" >
 <br>
 <p>Tampilan input bilangan pada ruas fungsi differensial</p>
-<image title="Tampilan input bilangan pada ruas fungsi differensial - aplikasi MAINDI" width="40%" src="http://i1382.photobucket.com/albums/ah258/romadhonbyar/Github/MAINDI/Tampilan%20Input%20Bilangan%20pada%20ruas%20fungsi%20differensial_zpsimi8bqdb.png" >
+<image title="Tampilan input bilangan pada ruas fungsi differential - aplikasi MAINDI" width="40%" src="https://raw.githubusercontent.com/romadhonbyar/MAINDI/master/image/tampilan-differential-input.PNG" >
 <br>
 <p>Tampilan hasil operasi fungsi differensial</p>
-<image title="Tampilan hasil operasi fungsi differensial - aplikasi MAINDI" width="40%" src="http://i1382.photobucket.com/albums/ah258/romadhonbyar/Github/MAINDI/Hasil%20Operasi%20dari%20fungsi%20differensial%20Aplikasi%20MAINDI_zpsyjvxuccz.png" >
+<image title="Tampilan hasil operasi fungsi differensial - aplikasi MAINDI" width="40%" src="https://raw.githubusercontent.com/romadhonbyar/MAINDI/master/image/tampilan-differential-output.PNG" >
 <br>
 
 
