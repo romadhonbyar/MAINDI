@@ -21,7 +21,7 @@ Aplikasi sederhana matematika diskrit atau diskret dalam pengoperasian intergral
 ![alt Tampilan tab integral output pada aplikasi MAINDI](https://raw.githubusercontent.com/romadhonbyar/MAINDI/master/image/tampilan-integral-output.PNG)
 
 # Demo
-aaa
+https://romadhonbyar.github.io/MAINDI/
 
 
 
